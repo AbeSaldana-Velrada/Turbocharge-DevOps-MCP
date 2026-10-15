@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "ado": {
+      "command": "npx",
+      "args": ["-y", "@azure-devops/mcp", "abedevops", "-d", "core", "work", "work-items"],
+      "env": {
+        "AZURE_DEVOPS_ORG_URL": "https://dev.azure.com/abedevops/",
+        "AZURE_DEVOPS_AUTH_METHOD": "Abedevops-pat",
+        "AZURE_DEVOPS_PAT": "<YOUR PAT HERE>",
+        "AZURE_DEVOPS_DEFAULT_PROJECT": "DemoProject"
+        
+      }
+    }
+  }
+}
